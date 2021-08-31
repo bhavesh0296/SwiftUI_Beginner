@@ -5,11 +5,17 @@ Code Basics Elements for the Swift UI Beginner
 ```swift
 Text("Hello SwiftUI")
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotText.png" alt="Home" width="280" /> 
+</kbd>
 
 ## Image
 ```swift
 Image(systemName:"clock")
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotImage.png" alt="Home" width="280" /> 
+</kbd>
 
 ## Button
 ```swift
@@ -17,6 +23,9 @@ Button("Click Me") {
   // handle the tap
 }
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotButton.png" alt="Home" width="280" /> 
+</kbd>
 
 ## Toggle / Switch
 ```swift
@@ -25,7 +34,10 @@ Button("Click Me") {
 Toggle(isOn: $isToggle) {
   Text("Toogle")
 }
-```       
+``` 
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotSwitch.png" alt="Home" width="280" /> 
+</kbd>
         
 ## TextField
 ```swift     
@@ -34,6 +46,9 @@ Toggle(isOn: $isToggle) {
 TextField("Please Enter Name", text: $name)
   .textFieldStyle(RoundedBorderTextFieldStyle())
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotTextField.png" alt="Home" width="280" /> 
+</kbd>
 
 ## Slider
 ```swift
@@ -42,6 +57,9 @@ TextField("Please Enter Name", text: $name)
 Slider(value: $slider, in: 0...10)
   .padding(.horizontal, 40)
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotSlider.png" alt="Home" width="280" /> 
+</kbd>
 
 ## Stepper
 ```swift
@@ -50,6 +68,9 @@ Slider(value: $slider, in: 0...10)
 Stepper("Steps \(stepperValue)", value: $stepperValue, in: 0...10)
   .padding(.horizontal, 80)
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotStepper.png" alt="Home" width="280" /> 
+</kbd>
 
 ## Picker
 ```swift
@@ -63,6 +84,9 @@ Picker("Week Day", selection: $weekDayIndex) {
     }
 }.padding(.horizontal, 80)
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotPicker.png" alt="Home" width="280" /> 
+</kbd>
 
 ## Segmented Control
 ```swift
@@ -78,6 +102,9 @@ Picker("Week Day", selection: $genreMusicIndex) {
 .pickerStyle(SegmentedPickerStyle())
 .padding(.horizontal, 80)
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotSegment.png" alt="Home" width="280" /> 
+</kbd>
 
 ## Date Picker
 ```swift
@@ -87,6 +114,9 @@ DatePicker("Select Date of Birth", selection: $dateOfBirth, in: ...Date(), displ
   .labelsHidden()
   .padding(.horizontal, 30)
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotDatePicker.png" alt="Home" width="280" /> 
+</kbd>
 
 ## NavigationView and NavigationLink
 ```swift
@@ -95,6 +125,13 @@ NavigationView {
   .navigationBarTitle("Navigation Demo")
 }
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotNavigationDemo&NavigationLink.png" alt="Home" width="280" /> 
+</kbd>
+&nbsp; &nbsp; &nbsp;
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotNavigationDemo&NavigationLink2.png" alt="Home" width="280" /> 
+</kbd>
 
 ## Tab Bar
 ```swift
@@ -128,4 +165,20 @@ TabView {
     .tag(3)
 }
 ```
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotTabBar1.png" alt="Home" width="180" /> 
+</kbd>
+&nbsp; &nbsp; &nbsp;
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotTabBar2.png" alt="Home" width="180" /> 
+</kbd>
+&nbsp; &nbsp; &nbsp;
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotTabBar3.png" alt="Home" width="180" /> 
+</kbd>
+&nbsp; &nbsp; &nbsp;
+<kbd>
+  <img src="SwiftUIScreenshots/screenshotTabBar4.png" alt="Home" width="180" /> 
+</kbd>
+
         
