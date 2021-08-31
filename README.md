@@ -96,5 +96,36 @@ NavigationView {
 }
 ```
 
-        
+## Tab Bar
+```swift
+TabView {
+  Text("Home Screen")
+    .tabItem({
+      Image(systemName: "house.fill")
+      Text("Home")
+    })
+    .tag(0)
+
+  Text("Edit Screen")
+    .tabItem ({
+      Image(systemName: "pencil.circle.fill")
+      Text("Edit")
+    })
+    .tag(1)
+
+  Text("Notification Screen")
+    .tabItem ({
+      Image(systemName: "bell.fill")
+      Text("Notification")
+    })
+    .tag(2)
+
+  Text("More")
+    .tabItem ({
+      Image(systemName: "ellipsis.circle.fill")
+      Text("More")
+    })
+    .tag(3)
+}
+```
         
