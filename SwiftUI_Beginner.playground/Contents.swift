@@ -41,3 +41,12 @@ struct User {
 
 let user = User(firstName: "Bhavesh", lastName: "Gupta")
 print(user.lastName, user.firstName)
+
+
+struct Seat {
+    private var booked = false
+
+    var toggleBooking: Bool {
+        return self.booked.toggle()
+    }
+}
